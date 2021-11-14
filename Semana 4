@@ -1,0 +1,179 @@
+public class Principal {
+
+    public static void main(String[] args) {
+        Persona persona = new Persona(12500, "Luis Lopéz", "0986578978");
+        System.out.println(persona.getNombre());
+
+        Instructor instructor = new Instructor(10000,"1000");
+        System.out.println(instructor.getSueldo());
+
+        Client client = new Client(23,"no");
+                System.out.println(client.setEdad());
+
+                casillero Casillero = new casillero(12500,"GRANDE");
+                System.out.println(Casillero.getTamaño());
+
+                GrupodeCompetencia grupodeCompetencia = new GrupodeCompetencia("La compentecia es facil de mucha concentarcion",1);
+                System.out.println(grupodeCompetencia.getDescripcion());
+...................................................................................................................................................
+public class  Persona {
+    private String nombre;
+    private String cedula;
+
+    public Persona(int id, String nombre, String telefono) {
+        this.nombre = nombre;
+        this.cedula = cedula;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getCedula() {
+        return cedula;
+    }
+
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
+    }
+}
+...................................................................................................................................................
+
+public class Instructor {
+    private String sueldo;
+    public int versueldo;
+
+    public String getSueldo() {
+        return sueldo;
+    }
+
+    public void setSueldo(String sueldo) {
+        this.sueldo = sueldo;
+    }
+
+    public int getVersueldo() {
+        return versueldo;
+    }
+
+    public void setVersueldo(int versueldo) {
+        this.versueldo = versueldo;
+    }
+
+    public Instructor(int versueldo, String sueldo) {
+        this.sueldo = sueldo;
+        this.versueldo = versueldo;
+
+
+    }
+}
+
+...................................................................................................................................................
+
+public class Client {
+
+    private int edad;
+    public String eliminar;
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getEliminar() {
+        return eliminar;
+    }
+
+    public void setEliminar(String eliminar) {
+        this.eliminar = eliminar;
+    }
+
+    public Client (int edad, String eliminar) {
+        this.edad = edad;
+        this.eliminar = eliminar;
+
+    }
+
+    public boolean setEdad() {
+        return false;
+    }
+}
+
+...................................................................................................................................................
+
+public class casillero {
+
+    private int id;
+    private String tamaño;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setTamaño(String tamaño) {
+        this.tamaño = tamaño;
+    }
+
+    public String getTamaño() {
+        return tamaño;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public casillero(int id, String tamaño) {
+        this.id = id;
+        this.tamaño = tamaño;
+
+    }
+}
+...................................................................................................................................................
+
+
+public class casillero {
+
+    private int id;
+    private String tamaño;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setTamaño(String tamaño) {
+        this.tamaño = tamaño;
+    }
+
+    public String getTamaño() {
+        return tamaño;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public casillero(int id, String tamaño) {
+        this.id = id;
+        this.tamaño = tamaño;
+
+    }
+}
+...................................................................................................................................................
+
+
+public class Disponible {
+
+    public void cumplerequisitos(){
+        System.out.println("Si cumple los requisitos");
+    }
+    public boolean cumplelosrequisitos(){
+     return false;
+    }
+
+}
