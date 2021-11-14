@@ -1,0 +1,108 @@
+public class main {
+
+    private static Object Vendedor;
+    private static Object Cliente;
+
+    int Edad;
+    String id;
+    String Nombre;
+
+    public static void main(String[] args) {
+        Cliente =new Cliente();
+        Vendedor = new Vendedor();
+        String ID,Nombre,_Dirreccion,Edad, Cargo;
+
+        System.out.println("Ingrese ID");
+        ID= new String();
+        System.out.println("Ingrese Nombre");
+        Nombre= new String();
+        System.out.println("Ingrese Dirreccion");
+        ID= new String();
+        System.out.println("Ingrese Edad");
+        ID= new String();
+        System.out.println("Ingrese Cargo");
+        ID= new String();
+
+    }
+
+............................................................................................................................................................................
+
+public class CLIENTEVR {
+    public class Cliente {
+        private String id;
+        private  String nombre;
+        private String direccion;
+
+        public Cliente(String id, String nombre, String direccion) {
+            this.id = id;
+            this.nombre = nombre;
+            this.direccion = direccion;
+        }
+
+        public String getId() {
+            return id;
+        }
+
+        public void setId(String id) {
+            this.id = id;
+        }
+
+        public String getNombre() {
+            return nombre;
+        }
+
+        public void setNombre(String nombre) {
+            this.nombre = nombre;
+        }
+
+        public String getDireccion() {
+            return direccion;
+        }
+
+        public void setDireccion(String direccion) {
+            this.direccion = direccion;
+        }
+    }
+
+}
+
+.................................................................................................................................................................................
+
+public class vendedor {
+    public class vendedor1{
+
+        private String nombre;
+        private int edad;
+        private String cargo;
+
+        public vendedor1(String nombre, int edad, String cargo) {
+            this.nombre = nombre;
+            this.edad = edad;
+            this.cargo = cargo;
+        }
+
+        public String getNombre() {
+            return nombre;
+        }
+
+        public void setNombre(String nombre) {
+            this.nombre = nombre;
+        }
+
+        public int getEdad() {
+            return edad;
+        }
+
+        public void setEdad(int edad) {
+            this.edad = edad;
+        }
+
+        public String getCargo() {
+            return cargo;
+        }
+
+        public void setCargo(String cargo) {
+            this.cargo = cargo;
+        }
+    }
+}
