@@ -1,0 +1,135 @@
+public class clase_principal {
+    public static void main(String[] args){
+        System.out.println("clase principal");
+        String placa = "RGB-144";
+        Vehiculos auto1 = new Vehiculos( placa, "Ford", "2015");
+        auto1.Matriculado();
+        auto1.setplaca("RGB-144");
+
+        System.out.println( auto1.setplaca() );
+
+        }
+
+
+    }
+
+
+
+
+public class Vehiculos {
+    private String placa;
+    private String marca;
+    private int year;
+
+    public Vehiculos(String plca, String marca, String year) {
+    }
+    {
+        this.year=year;
+        this.placa=placa;
+        this.marca=marca;
+    }
+    {
+        public String setplaca() {
+            return placa;
+        {
+            public void setplaca( String placa){
+
+        }
+        public String setmarca (){
+                return marca;
+        }
+            public String setyear (){
+            return year;
+        }
+            public String setmarca (int year){
+            return.year = year;
+
+    }
+
+    public void Matriculado (){
+                System.out.println(" El auto con placa " + placa + " esta Matriculado");
+        }
+
+    }
+}
+    }
+
+    public void Matriculado() {
+    }
+
+    public boolean setplaca(String s) {
+    }
+
+    public boolean setplaca() {
+    }
+
+...................................................................................................................................................................................
+
+1)
+public class Persona {
+    private String nombre;
+    private String cedula;
+
+    public Persona(String nombre, String cedula) {
+        this.nombre = nombre;
+        this.cedula = cedula;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getCedula() {
+        return cedula;
+    }
+
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
+    }
+
+    public void persona(){
+        System.out.println("el/la persona  "+ nombre+ " con cedula  "+cedula);
+    }
+
+}
+   
+
+2)
+
+public class Cliente {
+    private String edad;
+
+    public Cliente(String edad) {
+        this.edad = edad;
+    }
+
+    public String getEdad() {
+        return edad;
+    }
+
+    public void setEdad(String edad) {
+        this.edad = edad;
+    }
+
+    public boolean isConfirmar() {
+        return confirmar;
+    }
+
+    public void setConfirmar(boolean confirmar) {
+        this.confirmar = confirmar;
+    }
+
+    boolean confirmar;
+    public void crear(){
+        System.out.println("desea crear cliente ");
+    }
+    public void eliminar(){
+        System.out.println("con edad:"+edad );
+    }
+}
+
+
