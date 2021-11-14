@@ -1,0 +1,66 @@
+1)
+public class Persona {
+    private String nombre;
+    private String cedula;
+
+    public Persona(String nombre, String cedula) {
+        this.nombre = nombre;
+        this.cedula = cedula;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getCedula() {
+        return cedula;
+    }
+
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
+    }
+
+    public void persona(){
+        System.out.println("el/la persona  "+ nombre+ " con cedula  "+cedula);
+    }
+
+}
+   
+
+2)
+
+public class Cliente {
+    private String edad;
+
+    public Cliente(String edad) {
+        this.edad = edad;
+    }
+
+    public String getEdad() {
+        return edad;
+    }
+
+    public void setEdad(String edad) {
+        this.edad = edad;
+    }
+
+    public boolean isConfirmar() {
+        return confirmar;
+    }
+
+    public void setConfirmar(boolean confirmar) {
+        this.confirmar = confirmar;
+    }
+
+    boolean confirmar;
+    public void crear(){
+        System.out.println("desea crear cliente ");
+    }
+    public void eliminar(){
+        System.out.println("con edad:"+edad );
+    }
+}
